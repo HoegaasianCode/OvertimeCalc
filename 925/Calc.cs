@@ -20,7 +20,7 @@ namespace _925
 
         public void CalcPay()
         {
-            pay = (17 - _workInfo[0]) * 30;
+            pay = (17 - _workInfo[0]) * _workInfo[2];
         }
 
         public void CalcOvertimeHours()
